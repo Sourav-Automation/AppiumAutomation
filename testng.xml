@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		
+		      <class name="com.alramz.qa.testcases.loginTestcases.CustomerLoginTest"/>
+		      
+		      <!-- 
+      <class name="com.alramz.qa.testcases.watchlistTestcases.CreateNewWatchlistTest"/>
+      <class name="com.alramz.qa.testcases.watchlistTestcases.AddSymbolWatchlistTest"/>
+      <class name="com.alramz.qa.testcases.watchlistTestcases.DeleteWatchlistTest"/>
+
+      <class name="com.alramz.qa.testcases.watchlistTestcases.RenameWatchlistTest"/>
+      
+      -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

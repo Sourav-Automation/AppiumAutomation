@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Alramz Mobile Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.alramz.qa.utilities.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Watchlist Testcases(failed)">
+    <classes>
+      <class name="com.alramz.qa.testcases.loginTestcases.CustomerLoginTest">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="verifyCustomerLoginTest"/>
+          <include name="initializeDriver"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.alramz.qa.testcases.loginTestcases.CustomerLoginTest -->
+    </classes>
+  </test> <!-- Watchlist Testcases(failed) -->
+</suite> <!-- Failed suite [Alramz Mobile Automation] -->
